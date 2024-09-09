@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Your Cart</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Order Online Or Contact:jbartcraft@yahoo.com</p>
+        <ul class="d-flex">
+          <li><a href="#">About Us</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>JB</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="terms.html" class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutjb.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex"></span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span> <!-- This will be dynamically updated -->
+          </a>
+          
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://images.unsplash.com/photo-1594633313593-bab3825d0caf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+              <div>
+                <p>Handmade Backpack In One!</p>
+                <span>Price: $69.99</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$69.99</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./jbartandcraft-20240611-0010.jpg" alt="" />
+              <div>
+                <p>Acacia Tree Necklace Pendant</p>
+                <span>Price: $9.99</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$9.99</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./jbartandcraft-20240611-0016.jpg" alt="" />
+              <div>
+                <p>Brown Leather Briefcase</p>
+                <span>Price: $29.99</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$29.99</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://images.unsplash.com/photo-1624687943971-e86af76d57de?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+              <div>
+                <p>Brown Leather Handbag</p>
+                <span>Price: $19.99</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$19.99</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./jbartandcraft-20240612-0006.jpg" alt="" />
+              <div>
+                <p>Boy’s Tiger Pendant</p>
+                <span>Price: $10.99</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$10.99</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$138.99</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$27.99</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$165.98</td>
+          </tr>
+        </table>
+        <a href="payment.html" target="_blank" class="checkout btn">Proceed</a>
+      </div>
+    </div>
+
+    <!-- Latest Products -->
+    <section class="section featured">
+      <div class="top container">
+        <h1>Latest Products</h1>
+        <a href="product.html" target="_blank" class="view-more">View more</a>
+      </div>
+      <div class="product-center container reveal">
+        <div class="product-item ">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./jbartandcraft-20240612-0011.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>UNISEX CLOTHES</span>
+            <a href="">Hadmade Chains Wth Metal Inlays</a>
+            <h4>$15.99</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./jbartandcraft-20240612-0009.jpg" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>UNISEX CLOTHES</span>
+            <a href="">Handmade Artistic Knife</a>
+            <h4>$11.99</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./jbartandcraft-20240612-0008.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>UNISEX CLOTHES</span>
+            <a href="">Africa Shaped Necklace</a>
+            <h4>$7.99</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./jbartandcraft-20240612-0007.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>UNISEX CLOTHES</span>
+            <a href="">Customized Car Key Holders</a>
+            <h4>$39.99</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          window.addEventListener("scroll", revealOnScroll);
+          revealOnScroll();
+      });
+      
+      function revealOnScroll() {
+          var reveals = document.querySelectorAll('.reveal');
+          for (var i = 0; i < reveals.length; i++) {
+              var windowHeight = window.innerHeight;
+              var revealTop = reveals[i].getBoundingClientRect().top;
+              var revealPoint = 50;
+      
+              if (revealTop < windowHeight - revealPoint) {
+                  reveals[i].classList.add('active');
+              } else {
+                  reveals[i].classList.remove('active');
+              }
+          }
+      }
+      </script>
+  
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+    <script src="cart.js"></script>
+
+  </body>
+</html>
